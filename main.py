@@ -115,6 +115,6 @@ ttk.Button(frame, text="Adicionar Marca d'Água", command=start_watermark).grid(
 
 # Footer
 ttk.Label(frame, text="Rodrigo Rodrigues", font=("Helvetica", 10), background="white").grid(row=6, column=0, columnspan=3, pady=(10, 2))
-ttk.Label(frame, text="https://github.com/rodrigorodrigues/repo", font=("Helvetica", 10), background="white", foreground="blue", cursor="hand2").grid(row=7, column=0, columnspan=3, pady=(2, 10))
+ttk.Label(frame, text="https://github.com/rodigrorodrigues/MarcaDAgua", font=("Helvetica", 10), background="white", foreground="blue", cursor="hand2").grid(row=7, column=0, columnspan=3, pady=(2, 10))
 
 root.mainloop()
