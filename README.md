@@ -63,10 +63,6 @@ Este projeto é uma aplicação em Python que permite adicionar uma marca d'águ
 4. Faça um push para a branch: `git push origin minha-feature`.
 5. Abra um Pull Request.
 
-## Licença
-
-Este projeto está licenciado sob a Licença MIT. Veja o arquivo LICENSE para mais detalhes.
-
 ## Autor
 
 Rodrigo Rodrigues
