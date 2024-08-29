@@ -82,9 +82,9 @@ def on_focus_out(event, placeholder):
 
 root = tb.Window(themename="flatly")
 root.title("Adicionar Marca d'Água em PDF")
-root.geometry("600x380") 
+root.geometry("770x420") 
 root.configure(bg='white')
-root.resizable(False, False)
+root.resizable(True, True)
 
 frame = ttk.Frame(root, padding="10 10 10 10", style="White.TFrame")
 frame.place(relwidth=1, relheight=1)
