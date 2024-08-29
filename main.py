@@ -10,6 +10,7 @@ import tkinter as tk
 from tkinter import filedialog, messagebox
 import ttkbootstrap as tb
 from PIL import Image, ImageTk
+import webbrowser
 
 def add_watermark(input_pdf, output_pdf, watermark_text):
     try:
@@ -113,8 +114,14 @@ add_placeholder(entry_output, "Nome do arquivo de saída")
 
 ttk.Button(frame, text="Adicionar Marca d'Água", command=start_watermark).grid(row=5, column=0, columnspan=3, pady=20)
 
+def open_link(event):
+    webbrowser.open_new("https://github.com/rodigrorodrigues/MarcaDAguaPDF")
+
 # Footer
 ttk.Label(frame, text="Rodrigo Rodrigues", font=("Helvetica", 10), background="white").grid(row=6, column=0, columnspan=3, pady=(10, 2))
-ttk.Label(frame, text="https://github.com/rodigrorodrigues/MarcaDAgua", font=("Helvetica", 10), background="white", foreground="blue", cursor="hand2").grid(row=7, column=0, columnspan=3, pady=(2, 10))
+
+link_label = ttk.Label(frame, text="https://github.com/rodigrorodrigues/MarcaDAguaPDF", font=("Helvetica", 10), background="white", foreground="blue", cursor="hand2")
+link_label.grid(row=7, column=0, columnspan=3, pady=(2, 10))
+link_label.bind("<Button-1>", open_link)
 
 root.mainloop()
