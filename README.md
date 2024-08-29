@@ -55,15 +55,6 @@ Este projeto é uma aplicação em Python que permite adicionar marcas d'água a
    - Defina o nome do arquivo de saída.
    - Clique em "Adicionar Marca d'Água" para gerar o PDF com a marca d'água.
 
-## Estrutura do Projeto
-
-## Contribuição
-
-1. Faça um fork do projeto.
-2. Crie uma nova branch com a sua feature: `git checkout -b minha-feature`.
-3. Commit suas mudanças: `git commit -m 'Adiciona minha feature'`.
-4. Faça um push para a branch: `git push origin minha-feature`.
-5. Abra um Pull Request.
 
 ## Autor
 
