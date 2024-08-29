@@ -1,0 +1,4 @@
+ttkbootstrap
+PyPDF2
+reportlab
+Pillow
