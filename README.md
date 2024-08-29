@@ -1,6 +1,6 @@
 # Adicionar Marca d'Água em PDF
 
-Este projeto é uma aplicação em Python que permite adicionar uma marca d'água em arquivos PDF. A interface gráfica é construída utilizando `tkinter` e `ttkbootstrap`.
+Este projeto é uma aplicação em Python que permite adicionar marcas d'água a arquivos PDF. Ele utiliza as bibliotecas `PyPDF2` para manipulação de PDFs e `reportlab` para criação de conteúdo PDF. A interface gráfica é construída utilizando `tkinter` e `ttkbootstrap`.
 
 ## Funcionalidades
 
@@ -23,28 +23,31 @@ Este projeto é uma aplicação em Python que permite adicionar uma marca d'águ
 ## Instalação
 
 1. Clone o repositório:
-    ```sh
-    git clone https://github.com/rodrigorodrigues/MarcaDAgua.git
-    cd MarcaDAgua
-    ```
+
+   ```sh
+   git clone https://github.com/rodrigorodrigues/MarcaDAgua.git
+   cd MarcaDAgua
+   ```
 
 2. Crie um ambiente virtual e ative-o:
-    ```sh
-    python -m venv venv
-    source venv/bin/activate  # No Windows, use `venv\Scripts\activate`
-    ```
+
+   ```sh
+   python -m venv venv
+   source venv/bin/activate  # No Windows, use `venv\Scripts\activate`
+   ```
 
 3. Instale as dependências:
-    ```sh
-    pip install -r requirements.txt
-    ```
+   ```sh
+   pip install -r requirements.txt
+   ```
 
 ## Uso
 
 1. Execute o script principal:
-    ```sh
-    python main.py
-    ```
+
+   ```sh
+   python main.py
+   ```
 
 2. Na interface gráfica:
    - Clique em "Selecionar" para escolher um arquivo PDF.
@@ -53,7 +56,6 @@ Este projeto é uma aplicação em Python que permite adicionar uma marca d'águ
    - Clique em "Adicionar Marca d'Água" para gerar o PDF com a marca d'água.
 
 ## Estrutura do Projeto
-
 
 ## Contribuição
 
